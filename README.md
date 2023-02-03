@@ -44,4 +44,7 @@ Please see [Smile CDR][Link-SmileCDR] for information on commercial support.
 [Badge-CodeCov]: https://codecov.io/gh/hapifhir/hapi-fhir/branch/master/graph/badge.svg?token=zHfnKfQB9X
 [Badge-License]: https://img.shields.io/badge/license-apache%202.0-60C060.svg
 
+## Windows - Enable Long File Support:
 
+* `HKLM\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled=1`
+* `git config --system core.longpaths true`
